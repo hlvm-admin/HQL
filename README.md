@@ -27,8 +27,8 @@ Example 1: Please do for loop 2 times in Swift.
 ```
 <br>
 
-Example 2: Please take in Clojure
-<br>HQL: #clojure>take
+Example 2: Please do recursion in Clojure
+<br>HQL: #clojure>recur
 <br>
 
 ```clojure
