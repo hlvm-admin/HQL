@@ -3,8 +3,8 @@ High level Query Language. DSL in HLVM
 
 # Syntax
 <br>
-Example 1: Please do for loop 10 times in Swift.
-<br>HQL: #swift>for loop>*3
+Example 1: Please do for loop 2 times in Swift.
+<br>HQL: #swift>for loop>*2
 <br>
     
 ```swift
