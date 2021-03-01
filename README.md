@@ -2,6 +2,15 @@
 High level Query Language. DSL in HLVM
 
 # Syntax
+
+#language(can be ignored)>statement(mandatory)>*times(can be ignored)
+
+for example: 
+#javascript>spread operator 
+#javascript>spread+operator (do not need to put '+', white space can be interpreted in a natural way)
+
+
+# Example
 <br>
 Example 1: Please do for loop 2 times in Swift.
 <br>HQL: #swift>for loop>*2
