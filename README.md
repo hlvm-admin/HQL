@@ -1,6 +1,8 @@
 # HQL
 High level Query Language.<br><br>
-DSL in HLVM to take a code snippet automatically.
+DSL in HLVM.
+<br><br>
+HQL is designed to generate a code snippet automatically.
 
 # Syntax
 ```
