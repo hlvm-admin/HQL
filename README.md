@@ -13,11 +13,11 @@ HQL =>
 #swift>recursion
 #swift>if else:3>*3>+//good
 #swift>singly linked list>*2
-```
 
-for example: 
 #javascript>spread operator 
-#javascript>spread+operator (do not need to put '+', white space can be interpreted in a natural way)
+#javascript>spread+operator 
+// do not need to put '+', white space can be interpreted in a natural way
+```
 
 # Example
 
