@@ -2,14 +2,17 @@
 High level Query Language. DSL in HLVM
 
 # Syntax
-
+```
 #language>statement:indexNumberOfCodeSnippet>*times>+extraStringYouWant
+
 #language(mandatory)>statement(mandatory):indexNumberOfCodeSnippet(can be ignored)>*times(can be ignored)>+extraStringYouWant(can be ignored)
+```
 
 HQL => 
 ```hql
-#swift>fibonacci
+#swift>recursion
 #swift>if else:3>*3>+//good
+#swift>singly linked list>*2
 ```
 
 for example: 
