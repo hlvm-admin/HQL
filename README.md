@@ -1,5 +1,6 @@
 # HQL
-High level Query Language. DSL in HLVM
+High level Query Language.<br>
+DSL in HLVM
 
 # Syntax
 ```
