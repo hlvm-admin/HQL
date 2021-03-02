@@ -3,7 +3,31 @@ High level Query Language. DSL in HLVM
 
 # Syntax
 
-#language(can be ignored)>statement(mandatory)>*times(can be ignored)
+#language>statement:indexNumberOfCodeSnippet>*times>+extraStringYouWant
+#language(mandatory)>statement(mandatory):indexNumberOfCodeSnippet(can be ignored)>*times(can be ignored)>+extraStringYouWant(can be ignored)
+
+=> #swift>if else:3>*3>+//good
+
+```swift
+var isTrue = true
+
+if isTrue {
+    print("if!")
+} else if !isTrue {
+    print("else if!")
+} else {
+    print("else!")
+}   //good
+var isTrue = true
+
+if isTrue {
+    print("if!")
+} else if !isTrue {
+    print("else if!")
+} else {
+    print("else!")
+}   //good
+```
 
 for example: 
 #javascript>spread operator 
