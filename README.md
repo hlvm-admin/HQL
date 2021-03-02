@@ -6,33 +6,13 @@ High level Query Language. DSL in HLVM
 #language>statement:indexNumberOfCodeSnippet>*times>+extraStringYouWant
 #language(mandatory)>statement(mandatory):indexNumberOfCodeSnippet(can be ignored)>*times(can be ignored)>+extraStringYouWant(can be ignored)
 
-HQL => #swift>if else:3>*3>+//good
-
-```swift
-var isTrue = true
-
-if isTrue {
-    print("if!")
-} else if !isTrue {
-    print("else if!")
-} else {
-    print("else!")
-}   //good
-var isTrue = true
-
-if isTrue {
-    print("if!")
-} else if !isTrue {
-    print("else if!")
-} else {
-    print("else!")
-}   //good
-```
+HQL => 
+#swift>fibonacci
+#swift>if else:3>*3>+//good
 
 for example: 
 #javascript>spread operator 
 #javascript>spread+operator (do not need to put '+', white space can be interpreted in a natural way)
-
 
 # Example
 <br>
