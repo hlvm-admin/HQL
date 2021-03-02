@@ -14,10 +14,13 @@ HQL is designed to generate a code snippet automatically.
 HQL => 
 ```hql
 #swift>recursion
+
 #swift>if else:3>*3>+//good
+
 #swift>singly linked list>*2
 
 #javascript>spread operator 
+
 #javascript>spread+operator 
 // do not need to put '+', white space can be interpreted in a natural way
 ```
