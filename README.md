@@ -7,20 +7,21 @@ High level Query Language. DSL in HLVM
 #language(mandatory)>statement(mandatory):indexNumberOfCodeSnippet(can be ignored)>*times(can be ignored)>+extraStringYouWant(can be ignored)
 
 HQL => 
-<br>
+```hql
 #swift>fibonacci
-<br>
 #swift>if else:3>*3>+//good
+```
 
 for example: 
 #javascript>spread operator 
 #javascript>spread+operator (do not need to put '+', white space can be interpreted in a natural way)
 
 # Example
-<br>
+
 Example 1: Please do for loop 2 times in Swift.
-<br>HQL: #swift>for loop>*2
-<br>
+```hql
+#swift>for loop>*2
+```
     
 ```swift
 [1,2,3,4,5].forEach {
@@ -34,8 +35,9 @@ Example 1: Please do for loop 2 times in Swift.
 <br>
 
 Example 2: Please do recursion in Clojure
-<br>HQL: #clojure>recur
-<br>
+```hql
+#clojure>recur
+```
 
 ```clojure
 (loop [i 0]
@@ -44,11 +46,13 @@ Example 2: Please do recursion in Clojure
    		(prn i)
       (recur (inc i)))))
 ```
-<br>
 
-Example 3: Please do print 100 in Swift.
-<br>HQL: #swift>print>*100
 <br>
+Example 3: Please do print 100 in Swift.
+
+```hql
+#swift>print>*100
+```
 
 ```swift
 print("value : \(value)")
