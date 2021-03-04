@@ -4,6 +4,13 @@ DSL in HLVM.
 <br><br>
 HQL is designed to generate a code snippet automatically.
 
+# In action
+
+It is prototyped in HLVM.
+
+https://www.youtube.com/watch?v=XStsNEd0p4M
+
+
 # Syntax
 ```
 #language>statement:indexNumberOfCodeSnippet>*times>+extraStringYouWant
