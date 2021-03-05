@@ -4,6 +4,11 @@ DSL in HLVM.
 <br><br>
 HQL is designed to generate a code snippet automatically.
 
+You can use it in 
+HLVM: https://apps.apple.com/us/app/hlvm-pro/id1534707693
+HLVM Pro: https://apps.apple.com/us/app/hlvm/id1550426496
+(Direct autocompletion using HQL is only available in HLVM Pro like the video below)
+
 # In action
 
 It is prototyped in HLVM.
