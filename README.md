@@ -63,8 +63,7 @@ Example 2: Please do recursion in Clojure
 ```clojure
 (loop [i 0]
   (if (< i 5)
-    (do 
-   		(prn i)
+    (do (prn i)
       (recur (inc i)))))
 ```
 
