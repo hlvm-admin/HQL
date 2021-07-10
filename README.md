@@ -37,34 +37,6 @@ HQL =>
 // do not need to put '+', white space can be interpreted in a natural way
 ```
 
-```hql
-swift {
-    fx fact(x: Int) ~> Int {
-        return x == 0 ? 1 : x * fact(x: x - 1)
-    }
-}
-
-=> 
-
-func fact(x: Int) -> Int {
-    return x == 0 ? 1 : x * fact(x: x - 1)
-}
-
-
-clojure {
-    fx fact(x: Int) ~> Int {
-        return x == 0 ? 1 : x * fact(x: x - 1)
-    }
-}
-
-=> 
-
-(defn fact [x] 
-    (if (= x 0) 1 (* x (fact (dec x)))))
-    
-```
-
-
 # Example
 
 Example 1: Please do for loop 2 times in Swift.
