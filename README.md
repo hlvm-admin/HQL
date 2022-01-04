@@ -177,3 +177,10 @@ print("value : \(value)")
 print("value : \(value)")
 print("value : \(value)")
 ```
+
+Example 3: on safari press left button five times in 2 seconds interval 
+
+```hql
+>safari>left>*5>(2)
+```
+
