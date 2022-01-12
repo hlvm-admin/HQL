@@ -1,20 +1,7 @@
 # HQL
 High level Query Language.<br><br>
-DSL in HLVM.
-<br><br>
-HQL is designed to generate a code snippet automatically.
-
-You can use it in 
+DSL for HVM
 <br>
-* HLVM Pro: https://apps.apple.com/us/app/hlvm/id1550426496
-<br>
-
-# In action
-
-It is implemented in HLVM as prototype.
-
-https://www.youtube.com/watch?v=XStsNEd0p4M
-
 
 # Syntax
 ```
