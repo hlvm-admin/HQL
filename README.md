@@ -1,6 +1,6 @@
 # HQL
 High level Query Language.<br><br>
-DSL for HVM
+DSL for HLVM
 <br>
 
 # Syntax
